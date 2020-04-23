@@ -40,9 +40,7 @@ int main()
 	int sum = (n*(n+1))/2;
 	int sumsquare = sum*sum; // (1 + 2 + 3 + ...)^2
 	int squaresum = (n*(n+1)*(2*n+1))/6; // 1^2 +2^2 +3^2 ....
-	cout<<sum<<endl;
 	int res = sumsquare - squaresum;
-	cout<<sumsquare<<" "<<squaresum<<endl;
 	print("%d\n",res);
 	return 0;
 }
